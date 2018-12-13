@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RstCroupier</string>
+
+    <string name="deck_left_cards">Pozostało %1$d kart w talii</string>
+    <string name="distribute_cards">Kliknij, aby rozdać karty</string>
+
+
+    <string name="connection_error">Błąd połączenia</string>
+    <string name="connection_error_message">Błąd połączenia z serwerem. Sprawdź połączenie z internetem</string>
+    <string name="connection_check_again">Spróbuj ponownie</string>
+    <string name="connection_close_app">Zamknij aplikacje</string>
+
+    <string name="error_ok">Ok</string>
+    <string name="error_info">Ups! coś poszło nie tak</string>
+
+    <string name="result">Ułożenie:</string>
+    <string name="result_colour">Kolor!</string>
+    <string name="result_figures">Figury!</string>
+    <string name="result_twins">Bliźniaki!</string>
+
+</resources>
