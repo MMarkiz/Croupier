@@ -3,7 +3,6 @@ package com.rst.markiz.rstcroupier.viewmodel
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
-import android.util.Log
 import com.rst.markiz.rstcroupier.model.Cards
 import com.rst.markiz.rstcroupier.model.Constants.VALUE_FIVE
 import com.rst.markiz.rstcroupier.model.Constants.VALUE_ONE
@@ -38,7 +37,6 @@ class MainViewModel : ViewModel() {
     }
 
     fun getNextCards() {
-        Log.d("testt", "kilki22")
         if (deck != null && drawnCards?.value!!.remaining < VALUE_FIVE) {
             loadReshuffledDeck()
         }
